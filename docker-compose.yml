@@ -1,7 +1,8 @@
 
 services:
   encantokids:
-    image: wordpress:latest
+    image: encantokids-wordpress
+    build: .
     container_name: encantokids-wordpress
     restart: always
     ports:
